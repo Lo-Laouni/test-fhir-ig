@@ -3,9 +3,9 @@
 # │  used properties are included. For a list of all supported properties and their functions,     │
 # │  see: https://fshschool.org/docs/sushi/configuration/.                                         │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
-id: fhir.rwanda.ig.rw
+id: http://hl7.org/fhir/rw/core/ImplementationGuide/hl7.fhir.rw.core
 canonical: http://example.org
-name: rwIG
+name: rwIGcore
 # title: Example Title
 # description: Example Implementation Guide for getting started with SUSHI
 status: draft # draft | active | retired | unknown
@@ -17,7 +17,7 @@ releaseLabel: ci-build
 # jurisdiction: urn:iso:std:iso:3166#US "United States of America" # https://www.hl7.org/fhir/valueset-jurisdiction.html
 publisher:
   name: Loic Ntwali
-  url: http://example.org/example-publisher
+  url: https://www.linkedin.com/in/loicntwali/
   # email: test@example.org
 
 # The dependencies property corresponds to IG.dependsOn. The key is the
